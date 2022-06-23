@@ -114,7 +114,7 @@ export default {
             if (this.account.username != "" && this.account.password != "") {
                 try {
                     const account = await accountAPI.getAccountByUsername(this.account.username)
-                    if (CryptoJS.AES.decrypt(account[0].password, "pippo").toString(CryptoJS.enc.Utf8) == this.account.password) {
+                    if (CryptoJS.AES.decrypt(account[0].password, "moma").toString(CryptoJS.enc.Utf8) == this.account.password) {
                         this.account.image = account[0].image
                         this.$emit('login', account[0])
                     } else {
@@ -141,7 +141,7 @@ export default {
             else {
                 const formData = new FormData()
                 formData.append('image', this.image)
-                var encryptedPass = CryptoJS.AES.encrypt(this.account.password, "pippo").toString()
+                var encryptedPass = CryptoJS.AES.encrypt(this.account.password, "moma").toString()
                 formData.append('username', this.account.username)
                 formData.append('password', encryptedPass)
 

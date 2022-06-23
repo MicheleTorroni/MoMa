@@ -91,11 +91,11 @@ export default {
             this.messageColor = color
         },
         openConfirm() {
-            if (CryptoJS.AES.decrypt(this.account.password, "pippo").toString(CryptoJS.enc.Utf8) == this.previousPassword) {
+            if (CryptoJS.AES.decrypt(this.account.password, "moma").toString(CryptoJS.enc.Utf8) == this.previousPassword) {
                 this.$refs.dialog.open();
             } else {
                 console.log(this.account.password)
-                console.log(CryptoJS.AES.encrypt(this.previousPassword, "pippo"))
+                console.log(CryptoJS.AES.encrypt(this.previousPassword, "moma"))
                 this.showMessage("Insert account password before delete.", "red lighten-1")
             }
         },
@@ -113,7 +113,7 @@ export default {
         async submitForm() {
             if (this.account.username != "") {
                 if (this.newPassword == this.repeatedPassword || this.newPassword == "") {
-                    if (CryptoJS.AES.decrypt(this.account.password, "pippo").toString(CryptoJS.enc.Utf8) == this.previousPassword) {
+                    if (CryptoJS.AES.decrypt(this.account.password, "moma").toString(CryptoJS.enc.Utf8) == this.previousPassword) {
                         try {
                             if (this.newPassword != "") {
                                 this.account.password = CryptoJS.AES.encrypt(this.newPassword, "pippo")
