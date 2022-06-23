@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.21)  23 JUN 2022 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.21)  23 JUN 2022 16:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -621,7 +621,7 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 ] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 41489066E104B5D2274FBBF510D89F27;5719.
+(rerunfilecheck)             Checksum: B50B369C0425C115F7B38C4B0EA730DE;5704.
  ) 
 Here is how much of TeX's memory you used:
  10810 strings out of 478354
@@ -632,7 +632,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  72i,8n,77p,653b,1846s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Miche\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (37 pages, 1321673 bytes).
+Output written on main.pdf (37 pages, 1321677 bytes).
 PDF statistics:
  607 PDF objects out of 1000 (max. 8388607)
  191 named destinations out of 1000 (max. 500000)

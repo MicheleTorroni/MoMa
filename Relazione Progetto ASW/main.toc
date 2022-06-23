@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {0.4.3}Vue.js, Vue Router e Vuetify}{26}{subsection.0.4.3}%
 \contentsline {subsection}{\numberline {0.4.4}Node.js}{27}{subsection.0.4.4}%
 \contentsline {subsection}{\numberline {0.4.5}Socket.IO}{28}{subsection.0.4.5}%
-\contentsline {subsection}{\numberline {0.4.6}Socket.IO}{28}{subsection.0.4.6}%
+\contentsline {subsection}{\numberline {0.4.6}Docker}{28}{subsection.0.4.6}%
 \contentsline {section}{\numberline {0.5}Codice - Aspetti Salienti}{29}{section.0.5}%
 \contentsline {subsection}{\numberline {0.5.1}Backend}{29}{subsection.0.5.1}%
 \contentsline {subsection}{\numberline {0.5.2}Frontend}{30}{subsection.0.5.2}%
