@@ -116,7 +116,7 @@ export default {
                     if (CryptoJS.AES.decrypt(this.account.password, "moma").toString(CryptoJS.enc.Utf8) == this.previousPassword) {
                         try {
                             if (this.newPassword != "") {
-                                this.account.password = CryptoJS.AES.encrypt(this.newPassword, "pippo")
+                                this.account.password = CryptoJS.AES.encrypt(this.newPassword, "moma")
                                 const formData = new FormData()
                                 const newImage = this.image = ! "" ? this.image : null
                                 formData.append('image', newImage)
