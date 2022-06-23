@@ -91,9 +91,11 @@ export default {
             this.messageColor = color
         },
         openConfirm() {
-            if (this.previousPassword == this.account.password) {
+            if (CryptoJS.AES.decrypt(this.account.password, "pippo").toString(CryptoJS.enc.Utf8) == this.previousPassword) {
                 this.$refs.dialog.open();
             } else {
+                console.log(this.account.password)
+                console.log(CryptoJS.AES.encrypt(this.previousPassword, "pippo"))
                 this.showMessage("Insert account password before delete.", "red lighten-1")
             }
         },
